@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tixket/pages/login.dart';
-import 'package:tixket/pages/home.dart';
+// import 'package:tixket/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        fontFamily: 'Montserrat',
       ),
       home: const LoginPage(),
     );
   }
 }
-/*hanay coba coba silahkan dihapus
